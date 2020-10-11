@@ -2,7 +2,7 @@
 
 **Version 1.00**
 
-Code and documents abou  "Software Developer Radium Rocket trainning course" .
+Code and documents about  "Software Developer Radium Rocket trainning course" .
 
 Worked with two news from different newspapers. Links are posted below.
 
