@@ -1,0 +1,40 @@
+h1{
+    font-size: 2.75rem;
+    line-height: 3rem;
+    color:#3F3F42;
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 500;
+    
+}
+
+body{
+    background-color:white ;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+}
+
+.container{         /*Creamos otra clase que se llama container*/
+    width: 80%;     /*Se le pone el porcentaje para que al momento de modificar la pagina responda de forma oportuna moificando la caracteristica*/
+    margin: auto;   /* Le pone el mismo margen a los dos lados*/
+}
+
+/* Se llama a la clase y al contenido de la caja se le puede cambiar el fondo,letra,etc,etc*/
+.box-1{
+    background-color:white;
+    color: black;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style:dotted;
+
+}
+
+.underlinedtextbox{
+    color: black;
+    text-align: left;
+    text-decoration: underline;
+
+}
