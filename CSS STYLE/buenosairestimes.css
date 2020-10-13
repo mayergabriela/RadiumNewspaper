@@ -46,7 +46,7 @@ h6 {
 .firstletter{                   
     font-weight: 700;
     color: #0076ba;
-    font-size: 4em;
+    font-size: 6em;
     text-align: center;
     padding: 0 .5rem 0 0;
     margin: -.1rem 0 -1rem;
@@ -54,8 +54,22 @@ h6 {
     line-height: 1em;
     font-family: PT Serif,Georgia,Times New Roman,Times,serif;
 }
+/*1er Parrafo*/
+.firstparagraph{
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    display: block;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Georgia,Times New Roman,Times,Serif;
+    padding: 1% 0;
+    padding-right: 30%;
+
+}
 /*Parrafos*/
-p {
+.paragraphs{
     font-size: 1.3rem;
     line-height: 1.6em;
     display: block;
@@ -70,5 +84,8 @@ p {
 }
 /*Footer*/
 .footer{
-    text-align: center;
+    font-family: Georgia,Times New Roman,Times,Serif;
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
 }
