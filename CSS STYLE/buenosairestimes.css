@@ -1,0 +1,64 @@
+*{
+    background-color:#f8f9fa;;
+}
+/*Titulo*/
+.title{
+    font-family: PT Serif,Georgia,Times New Roman,Times,serif;
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+ /*Subtitulo*/
+.subtitle{
+    color: gray;
+    font-style: bold;
+    font-size:3.4 rem;
+    font-weight: 500;
+    height: 43px;
+    margin-bottom: 1em;
+    border-top: 1px white;
+    border-bottom: 1px #0076ba;
+    overflow: hidden;
+}
+/*Epigrafe*/
+.epigraph{
+    border-color:#0076ba;
+}
+.container{         
+    width: 80%;     /*Se le pone el porcentaje para que al momento de modificar la pagina responda de forma oportuna moificando la caracteristica*/
+    margin: auto;   /* Le pone el mismo margen a los dos lados*/
+    text-align: left;
+}
+/*Letra I en color*/
+.firstletter{                   
+    font-weight: 700;
+    color: #0076ba;
+    font-size: 4em;
+    text-align: center;
+    padding: 0 .5rem 0 0;
+    margin: -.1rem 0 -1rem;
+    float: left;
+    line-height: 1em;
+    font-family: PT Serif,Georgia,Times New Roman,Times,serif;
+}
+/*Parrafos*/
+p {
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #000;
+    font-family: Georgia,Times New Roman,Times,Serif;
+    padding: 1% 0;
+}
+/*Footer*/
+.footer{
+    text-align: center;
+}
