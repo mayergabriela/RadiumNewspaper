@@ -1,5 +1,5 @@
 *{
-    background-color:#f8f9fa;;
+    background-color:#f8f9fa;
 }
 /*Titulo*/
 .title{
@@ -11,6 +11,10 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    padding-right: 30%;
+}
+h6 {
+    color: gray;
 }
  /*Subtitulo*/
 .subtitle{
@@ -26,7 +30,12 @@
 }
 /*Epigrafe*/
 .epigraph{
-    border-color:#0076ba;
+    color: #0a0a0a;
+    font-family: Source Sans Pro,Helvetica,Arial,Sans-serif;
+    font-size: 3.4 rem;
+    border-bottom: 5px solid #0076ba;
+    background: #f8f9fa;
+    padding-right: 30%;
 }
 .container{         
     width: 80%;     /*Se le pone el porcentaje para que al momento de modificar la pagina responda de forma oportuna moificando la caracteristica*/
@@ -57,6 +66,7 @@ p {
     color: #000;
     font-family: Georgia,Times New Roman,Times,Serif;
     padding: 1% 0;
+    padding-right: 30%;
 }
 /*Footer*/
 .footer{
