@@ -1,17 +1,33 @@
+*{
+    background-color:white ;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: left;
+    color: #3F3F42;
+}
+/*Titulo*/
 h1{
-    font-size: 2.75rem;
-    line-height: 3rem;
-    color:#3F3F42;
     font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
     font-weight: 500;
-    margin: 20px 0;
-    text-align: left;
-    padding-left: 20px;
-    
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: #3F3F42;
+    padding-left: 25%;
+}
+/* Caja India coronavirus lockdown*/
+.box-1{
+    color: #3F3F42;
+    border: 1px solid #DB7F7F; /*Otorga ancho del cuadrado y el color*/
+    font-weight: bold;
+    padding: 0.1rem;
+    margin: 30px;
+}
+.boxepigraf{
+    background: #3F3F42;
+    color: #EEEEEE;
 }
 
 body{
-    background-color:white ;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -28,15 +44,11 @@ body{
 }
 
 /* Se llama a la clase y al contenido de la caja se le puede cambiar el fondo,letra,etc,etc*/
-.box-1{
-    background-color:white;
-    color: black;
-    border-width: 3px;
-    border-bottom-width: 10px;
-}
+
 
 .underlinedtextbox{
     color: black;
     text-align: left;
     text-decoration: underline;
+    line-height: 2;
 }
